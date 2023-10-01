@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - lts/*
+install: 
+  - yarn install
+script: 
+  - yarn docs:build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: docs/.vuepress/dist
+  gitpub_token: "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"
+  keep_history: true
+  on:
+    branch: master

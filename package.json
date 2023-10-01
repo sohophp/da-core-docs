@@ -9,5 +9,9 @@
   "repository": "https://github.com/sohophp/da-core-docs",
   "author": "sohophp@gmail.com",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }
