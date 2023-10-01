@@ -1,7 +1,7 @@
 module.exports = {
     title: "DaCore Docs",
     description: "DaCore manual",
-    base:'/DaCoreDocs',
+    base:'/da-core-docs/',
     locales: {
         '/': {
             lang: 'en-US',
