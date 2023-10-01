@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "name": "DaCoreDocs",
+  "version": "1.0.0",
+  "description": "DaCore manual",
+  "main": "index.js",
+  "repository": "https://github.com/sohophp/da-core-docs",
+  "author": "sohophp@gmail.com",
+  "license": "MIT",
+  "private": true
+}
