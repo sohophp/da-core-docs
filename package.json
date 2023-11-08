@@ -2,7 +2,7 @@
   "devDependencies": {
     "vuepress": "^1.9.10"
   },
-  "name": "DaCoreDocs",
+  "name": "da-core-docs",
   "version": "1.0.0",
   "description": "DaCore manual",
   "main": "index.js",
