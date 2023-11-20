@@ -1,37 +1,9 @@
-# 实例 1-初始化
+---
+prev: ./index.md
+next: guide-2.md
+---
 
-[[toc]]
-
-## 关于文档
-
-::: tip
-文档使用 Windows 环境,命令行使用 PowerShell 7.3.9
-:::
-::: tip
-考虑到安全，文档中 Git 仓库网址使用 `<GitBase>` 代替,需要自行替换
-:::
-::: tip
-开发环境 Windows+Apache2.4+PHP8.1+MySQL8.0 参考: `<GitBase>/v2/DevServer`
-:::
-
-```powershell
-$psversiontable.PSVersion
-# 7.3.9
-php --version
-# PHP 8.1.24
-composer --version
-# 2.6-dev
-mysql --version
-# 8.0.33
-git --version
-# 2.42.0
-node --version
-# v18.18.0
-npm --version
-# 10.1.0
-yarn --version
-# 1.22.19
-```
+# 初始化
 
 ## 项目初始化
 
@@ -54,6 +26,11 @@ Remove-Item -Path uploads/.git -Force -Recurse
 composer81 install
 
 ```
+::: tip
+- 关于 [Composer](../reference/composer.md)
+- 关于 [GIT](../reference/git.md) 
+- 关于 [PowerShell](../reference/powershell.md)
+:::
 
 ## 初始化数据库
 
@@ -63,6 +40,7 @@ composer81 install
  ```
 
 复制 database.yaml.example 为 database.yaml 并修改数据库连接设定
+
 ```yaml
 # database.yaml
 host: 127.0.0.1
@@ -71,14 +49,21 @@ dbname: <数据库名称>
 user: <用户名>
 password: '密码'
 ```
+::: tip
+关于 [yaml](https://www.php.net/manual/zh/book.yaml.php)
+:::
+
 ```powershell
 # 导入数据
 ./cli import 0
 ```
+::: tip
+关于[命令行cli](../reference/cli.md)
+:::
 
 打开网址 https://localhost/DaCoreExample/ 如果正常会看到一个Blog首页
 ::: tip
-[目录结构](./directory-structure.md)
+[目录结构](../reference/directory-structure.md)
 :::
 
 生成超级密码
@@ -108,4 +93,22 @@ https://localhost/DaCoreExample/newadmin
 - 改名 static 为 static_copy (可以删除，改名是为了可以查看一些代码使用)
 - 重建文件夹 `static/view` ,`static/config`
 
-下一步: [实例 2-首页](./living-example-2.md)
+::: tip
+关闭博客[模块](../reference/module.md),卸载博客相关数据表方法:
+```powershell
+# 删除博客相关数据表,Blog是App\Modules\Blog这个模块文件夹名称
+./cli module:down Blog
+```
+修改 App/Modules/Blog/Config/blog.yaml
+```yaml
+blog:
+  # 关闭 Blog文章
+  enable: 0
+```
+修改 App/Modules/Blog/Config/blog_categories.yaml
+```yaml
+blog_categories:
+  # 关闭 Blog文章分类
+  enable: 0
+```
+:::

@@ -1,9 +1,7 @@
 # 文件结构
 
 ::: tip
-
-关于 [迁移](./migration.md)
-
+关于 [迁移](../reference/migration.md)
 :::
 
 ```powershell
