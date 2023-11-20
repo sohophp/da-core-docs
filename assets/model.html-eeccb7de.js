@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4caf6faa","path":"/zh-CN/v1/reference/model.html","title":"模型 Model","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/model.md"}');export{e as data};

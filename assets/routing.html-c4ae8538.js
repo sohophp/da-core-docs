@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2b7154a6","path":"/zh-CN/v1/reference/routing.html","title":"路由 Routing","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/routing.md"}');export{e as data};

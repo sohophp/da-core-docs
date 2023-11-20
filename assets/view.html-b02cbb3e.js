@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,d as o}from"./app-c32aa151.js";const r={},s=e("h1",{id:"视图模板-view",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#视图模板-view","aria-hidden":"true"},"#"),o(" 视图模板 View")],-1),i=[s];function n(_,d){return a(),c("div",null,i)}const l=t(r,[["render",n],["__file","view.html.vue"]]);export{l as default};

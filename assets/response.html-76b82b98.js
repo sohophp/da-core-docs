@@ -1,0 +1,1 @@
+import{_ as s,o,c as r,a as e,d as t}from"./app-c32aa151.js";const a={},n=e("h1",{id:"响应-response",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#响应-response","aria-hidden":"true"},"#"),t(" 响应 Response")],-1),c=[n];function _(d,i){return o(),r("div",null,c)}const l=s(a,[["render",_],["__file","response.html.vue"]]);export{l as default};

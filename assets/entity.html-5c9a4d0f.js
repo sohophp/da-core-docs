@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-94dc7488","path":"/zh-CN/v1/reference/entity.html","title":"实体 Entity","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/entity.md"}');export{e as data};

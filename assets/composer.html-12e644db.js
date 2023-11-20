@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-74b1851f","path":"/zh-CN/v1/reference/composer.html","title":"Composer","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/composer.md"}');export{e as data};

@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as n,a as e,d as i}from"./app-c32aa151.js";const o={},c=e("h1",{id:"导航链接-navigation",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#导航链接-navigation","aria-hidden":"true"},"#"),i(" 导航链接 / navigation")],-1),r=[c];function s(d,_){return t(),n("div",null,r)}const l=a(o,[["render",s],["__file","guide-4-navigation.html.vue"]]);export{l as default};

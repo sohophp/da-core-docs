@@ -1,0 +1,1 @@
+import{_ as o,o as r,c as s,a as e,d as t}from"./app-c32aa151.js";const a={},l=e("h1",{id:"powershell",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#powershell","aria-hidden":"true"},"#"),t(" PowerShell")],-1),c=[l];function n(_,h){return r(),s("div",null,c)}const i=o(a,[["render",n],["__file","powershell.html.vue"]]);export{i as default};

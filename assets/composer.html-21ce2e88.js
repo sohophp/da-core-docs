@@ -1,0 +1,1 @@
+import{_ as o,o as c,c as r,a as e,d as s}from"./app-c32aa151.js";const t={},a=e("h1",{id:"composer",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#composer","aria-hidden":"true"},"#"),s(" Composer")],-1),n=[a];function _(d,i){return c(),r("div",null,n)}const h=o(t,[["render",_],["__file","composer.html.vue"]]);export{h as default};

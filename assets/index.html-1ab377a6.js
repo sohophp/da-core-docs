@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3add9649","path":"/zh-CN/v1/guide/","title":"","lang":"zh-CN","frontmatter":{"next":{"text":"初始化","link":"./guide-1.md"}},"headers":[{"level":2,"title":"关于文档","slug":"关于文档","link":"#关于文档","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/guide/index.md"}');export{e as data};

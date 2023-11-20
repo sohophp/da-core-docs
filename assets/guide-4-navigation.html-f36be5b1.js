@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-da80d29c","path":"/zh-CN/v1/guide/guide-4-navigation.html","title":"导航链接 / navigation","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/guide/guide-4-navigation.md"}');export{t as data};

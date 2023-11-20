@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-f71a1580","path":"/zh-CN/v1/guide/guide-3.html","title":"公司介绍模块","lang":"zh-CN","frontmatter":{"prev":"./guide-2.md","next":"./guide-4.md"},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/guide/guide-3.md"}');export{e as data};

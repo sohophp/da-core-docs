@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,d as n}from"./app-c32aa151.js";const r={},c=e("h1",{id:"数据库迁移",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#数据库迁移","aria-hidden":"true"},"#"),n(" 数据库迁移")],-1),s=e("p",null,"migration",-1),i=[c,s];function _(d,l){return a(),o("div",null,i)}const m=t(r,[["render",_],["__file","migration.html.vue"]]);export{m as default};

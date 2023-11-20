@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8edf4942","path":"/zh-CN/v1/reference/template-twig.html","title":"模板引擎-TWIG","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/template-twig.md"}');export{e as data};

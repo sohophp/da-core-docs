@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-12794ea3","path":"/zh-CN/v1/reference/controller.html","title":"控制器 Controller","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/controller.md"}');export{e as data};

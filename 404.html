@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.67">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>DaCore Docs</title><meta name="description" content="DaCore manual">
+    <link rel="preload" href="/da-core-docs/assets/style-42813473.css" as="style"><link rel="stylesheet" href="/da-core-docs/assets/style-42813473.css">
+    <link rel="modulepreload" href="/da-core-docs/assets/app-c32aa151.js"><link rel="modulepreload" href="/da-core-docs/assets/404.html-3eb7f126.js"><link rel="modulepreload" href="/da-core-docs/assets/404.html-60b35caa.js"><link rel="prefetch" href="/da-core-docs/assets/index.html-4a6b6c73.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-61d8ba7d.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-2b0bf491.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-9b011f85.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-811ab829.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-be16166a.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-8881c5f1.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-1.html-88fac78f.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-2.html-65907e9d.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-3.html-1756699c.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-4-navigation.html-f36be5b1.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-1ab377a6.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/cli.html-52c1e6fa.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/composer.html-12e644db.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/configuration.html-d9da6cf0.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/controller.html-93fdc2bb.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/directory-structure.html-4fe5014d.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/entity.html-5c9a4d0f.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/git.html-f30caead.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/migration.html-97f1d608.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/model.html-eeccb7de.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/module.html-68c43e85.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/powershell.html-89954c5c.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/response.html-c8dc48d2.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/routing.html-c4ae8538.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/template-twig.html-64f7db98.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/view.html-9cceefce.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-cc4f705c.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-c6c58606.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-bf779c2e.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-f532dd2a.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-ff43ee72.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-c5833351.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-432f020e.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-1.html-0d0868ef.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-2.html-31c9d660.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-3.html-55d02500.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/guide-4-navigation.html-b62da61b.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/index.html-9f72a31d.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/cli.html-9781b586.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/composer.html-21ce2e88.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/configuration.html-b0e69e57.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/controller.html-dc4e0143.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/directory-structure.html-3ac38c31.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/entity.html-98d99736.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/git.html-029143b1.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/migration.html-843e0bed.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/model.html-e70f2792.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/module.html-e7de74bb.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/powershell.html-f86dd4a5.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/response.html-76b82b98.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/routing.html-db0b1274.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/template-twig.html-b40de2c3.js" as="script"><link rel="prefetch" href="/da-core-docs/assets/view.html-b02cbb3e.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>There&#39;s nothing here.</blockquote><a href="/da-core-docs/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/da-core-docs/assets/app-c32aa151.js" defer></script>
+  </body>
+</html>

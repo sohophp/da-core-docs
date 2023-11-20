@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-21f530d3","path":"/zh-CN/v1/reference/module.html","title":"模块 / Module","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/module.md"}');export{e as data};

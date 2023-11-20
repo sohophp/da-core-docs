@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1987d806","path":"/zh-CN/v1/reference/configuration.html","title":"配置 Configuration","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/configuration.md"}');export{e as data};

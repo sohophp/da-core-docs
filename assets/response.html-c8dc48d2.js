@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-65ccfe9e","path":"/zh-CN/v1/reference/response.html","title":"响应 Response","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/response.md"}');export{e as data};

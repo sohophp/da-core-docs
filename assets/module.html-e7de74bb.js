@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,d as c}from"./app-c32aa151.js";const d={},r=e("h1",{id:"模块-module",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#模块-module","aria-hidden":"true"},"#"),c(" 模块 / Module")],-1),s=[r];function n(_,l){return t(),a("div",null,s)}const u=o(d,[["render",n],["__file","module.html.vue"]]);export{u as default};

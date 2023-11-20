@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,d as c}from"./app-c32aa151.js";const d={},r=e("h1",{id:"模型-model",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#模型-model","aria-hidden":"true"},"#"),c(" 模型 Model")],-1),s=[r];function n(_,l){return t(),a("div",null,s)}const h=o(d,[["render",n],["__file","model.html.vue"]]);export{h as default};

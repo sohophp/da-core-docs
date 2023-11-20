@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-34a85a93","path":"/zh-CN/v1/reference/cli.html","title":"命令行 cli","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"zh-CN/v1/reference/cli.md"}');export{e as data};
