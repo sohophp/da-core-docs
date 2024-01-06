@@ -3,7 +3,7 @@ import {defaultTheme} from 'vuepress';
 export default {
     title: "DaCore Docs",
     description: "DaCore manual",
-    base: '/da-core-docs/',
+    base: '/',//da-core-docs/
     locales: {
         '/zh-CN/': {
             lang: 'zh-CN',
